@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <link rel="stylesheet" href="css/ytdownloader.css">
+    <meta charset="UTF-8">
+    <title>Mconverter | Yt Downloader</title>
+</head>
+<body>
+    <div class="topnav">
+        <p>M Converter</p>
+        <a href="download.html"> Download</a>
+      </div>
+
+    <div>
+    
+        <input type="text" id="txtinput">
+        <button onclick=scarica()>Scarica</button>
+
+
+        <select name="format" id="format">
+            <optgroup label="Video">
+              <option value="mp4 360p">Mp4 360p</option>
+              <option value="mp4 720p">Mp4 720p</option>
+              <option value="mp4 1080p">Mp4 1080p</option>
+              <option value="mp4 4K">Mp4 4K</option>
+            </optgroup>
+            <optgroup label="Audio">
+              <option value="mp3">Mp3</option>
+              <option value="OGG">OGG</option>
+              <option value="WAV">WAV</option>
+            </optgroup>
+          </select>
+    </div>
+    
+    <script src="js/ytdownloader.js"></script> 
+
+</body>
+</html>
